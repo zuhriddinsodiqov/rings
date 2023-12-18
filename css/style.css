@@ -93,3 +93,17 @@ a{
 .contact h2{
     margin-bottom: 2rem;
 }
+.nav .fa-bars{
+    display: none;
+}
+@media only  screen and (max-width:768px) {
+    .nav .fa-bars{
+        display: block;
+    }
+    .nav a{
+        display: none;
+    }
+    .nav .fa-search{
+        display: none;
+    }
+}
